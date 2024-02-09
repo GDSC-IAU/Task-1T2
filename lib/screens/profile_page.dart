@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import './widgets/Profile_Image.dart';
 
 class profile_page extends StatelessWidget {
   const profile_page({super.key});
@@ -9,9 +10,10 @@ class profile_page extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Profile Page'),
       ),
-
-      body: const Center(
-        
+      body: const Scaffold(
+        body: Center(
+          child: profile_image(),
+        ),
       ),
     );
   }

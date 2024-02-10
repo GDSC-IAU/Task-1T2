@@ -10,10 +10,15 @@ class profile_page extends StatelessWidget {
       appBar: AppBar(
         title: const Text('Profile Page'),
       ),
-      body: const Scaffold(
-        body: Center(
-          child: profile_image(),
-        ),
+      body: const Column(
+       children:[
+        profile_image(),
+        Text("Name"),
+        Text("Email"),
+        Text("Phone"),
+        Text("Address"),
+        
+        ],
       ),
     );
   }

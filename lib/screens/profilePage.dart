@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'widgets/ProfileBox.dart';
+import 'widgets/ProfileInfo.dart';
 
 class profilePage extends StatelessWidget {
   const profilePage({super.key});
@@ -10,20 +11,17 @@ class profilePage extends StatelessWidget {
       appBar: AppBar(
         backgroundColor: const Color(0xFFD0BFFF),
       ),
-      body: const Padding(
-        padding: EdgeInsets.all(10.0),
+      body:const SingleChildScrollView(
+        scrollDirection: Axis.vertical,
         child: Column(
-          children: [
-            profileBox(),
-        
-        
-        
-            
-          ],
-        ),
+            children: [
+              profileBox(),
+              ProfileInfo(),
+              
+            ],
+          ),
       ),
-
+      
     );
   }
 }
-

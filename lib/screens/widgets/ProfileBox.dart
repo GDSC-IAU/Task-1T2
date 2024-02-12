@@ -7,29 +7,41 @@ class profileBox extends StatelessWidget {
   Widget build(BuildContext context) {
     return Stack(
               children: [
-                
-      
-      
-                      Center(
-                        child: Container(
-                            height: 180,
-                            width: 350,
-                            margin: const EdgeInsets.only(top: 70),
-                            decoration: const BoxDecoration(
-                              color: Colors.white,
-                              shape: BoxShape.rectangle,
-                              borderRadius: BorderRadius.all(Radius.circular(20)),
-                              boxShadow: [
-                                BoxShadow(
-                                  color: Color.fromARGB(41, 0, 0, 0),
-                                  spreadRadius: 5,
-                                  blurRadius: 7,
-                                  offset: Offset(0, 3),
-                                ),
-                              ],
-                            ),
-                          ),
+
+                Container(
+                   height: 100,
+                    decoration: const BoxDecoration(
+                      color: const Color(0xFFD0BFFF),
+                      shape: BoxShape.rectangle,
+                      borderRadius: BorderRadius.vertical(
+                        bottom: Radius.circular(50.0),
                       ),
+                    ),
+                ),
+
+                
+             
+            
+                Center(
+                   child: Container(
+                    height: 180,
+                    width: 350,
+                    margin: const EdgeInsets.only(top: 70),
+                    decoration: const BoxDecoration(
+                      color: Colors.white,
+                      shape: BoxShape.rectangle,
+                      borderRadius: BorderRadius.all(Radius.circular(25)),
+                      boxShadow: [
+                        BoxShadow(
+                           color: Color.fromARGB(41, 0, 0, 0),
+                           spreadRadius: 5,
+                           blurRadius: 7,
+                           offset: Offset(0, 3),
+                        ),
+                      ],
+                    ),
+                   ),
+                ),
                       
       
                       
@@ -69,6 +81,7 @@ class profileBox extends StatelessWidget {
                     child: const CircleAvatar(
                       radius: 70,
                       backgroundImage: AssetImage('assets/images/account.png'),
+                      foregroundColor: Color(0xFFBEADFA),
                     ),
                   ),
                 

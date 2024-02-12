@@ -8,18 +8,11 @@ class profile_page extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Profile Page'),
+        backgroundColor: Color(0xFFD0BFFF),
       ),
-      body: const Column(
-       children:[
-        profile_image(),
-        Text("Name"),
-        Text("Email"),
-        Text("Phone"),
-        Text("Address"),
-        
-        ],
-      ),
+      body:  profile_image(),
+
     );
   }
 }
+

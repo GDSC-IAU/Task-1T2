@@ -1,4 +1,3 @@
-
 import 'package:flutter/material.dart';
 
 class phoneNumber extends StatelessWidget {
@@ -15,13 +14,10 @@ class phoneNumber extends StatelessWidget {
             style: TextStyle(fontSize: 20, color: Color(0xFFBEADFA)),
           ),
         ),
-
-
         Stack(
           children: [
             Center(
               child: Container(
-
                 height: 60,
                 width: 350,
                 margin: const EdgeInsets.only(top: 15),
@@ -38,34 +34,32 @@ class phoneNumber extends StatelessWidget {
                     ),
                   ],
                 ),
-                  child: Padding(
-                    padding: const EdgeInsets.all(15.0),
-                    child: Row(
-                      children: [
-                    
-                        const Text(
-                          '0550511234',
-                          textAlign: TextAlign.justify,
-                          style: TextStyle(
-                            color: Color(0xFFBEADFA),
-                            fontSize: 22,
-                          ),
+                child: Padding(
+                  padding: const EdgeInsets.all(15.0),
+                  child: Row(
+                    children: [
+                      const Text(
+                        '0550511234',
+                        textAlign: TextAlign.justify,
+                        style: TextStyle(
+                          color: Color(0xFFBEADFA),
+                          fontSize: 22,
                         ),
-                    
-                          Container(
-                            alignment: Alignment.centerRight,
-                            margin: const EdgeInsets.only(left: 15),
-                            child: const Icon(
-                              Icons.phone,
-                              color: Color(0xFFBEADFA),
-                              size: 30,
-                            ),
-                          ),
-                      ],
-                    ),
+                      ),
+                      Container(
+                        alignment: Alignment.centerRight,
+                        margin: const EdgeInsets.only(left: 15),
+                        child: const Icon(
+                          Icons.phone,
+                          color: Color(0xFFBEADFA),
+                          size: 30,
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               ),
+            ),
           ],
         ),
       ],

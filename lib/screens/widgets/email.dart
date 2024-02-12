@@ -14,13 +14,10 @@ class email extends StatelessWidget {
             style: TextStyle(fontSize: 20, color: Color(0xFFBEADFA)),
           ),
         ),
-
-
         Stack(
           children: [
             Center(
               child: Container(
-
                 height: 60,
                 width: 350,
                 margin: const EdgeInsets.only(top: 15),
@@ -37,34 +34,32 @@ class email extends StatelessWidget {
                     ),
                   ],
                 ),
-                  child: Padding(
-                    padding: const EdgeInsets.all(15.0),
-                    child: Row(
-                      children: [
-                    
-                        const Text(
-                          'arwalkhathlan@iau.edu.sa',
-                          textAlign: TextAlign.justify,
-                          style: TextStyle(
-                            color: Color(0xFFBEADFA),
-                            fontSize: 22,
-                          ),
+                child: Padding(
+                  padding: const EdgeInsets.all(15.0),
+                  child: Row(
+                    children: [
+                      const Text(
+                        'arwalkhathlan@iau.edu.sa',
+                        textAlign: TextAlign.justify,
+                        style: TextStyle(
+                          color: Color(0xFFBEADFA),
+                          fontSize: 22,
                         ),
-                    
-                          Container(
-                            alignment: Alignment.centerRight,
-                            margin: const EdgeInsets.only(left: 15),
-                            child: const Icon(
-                              Icons.email,
-                              color: Color(0xFFBEADFA),
-                              size: 30,
-                            ),
-                          ),
-                      ],
-                    ),
+                      ),
+                      Container(
+                        alignment: Alignment.centerRight,
+                        margin: const EdgeInsets.only(left: 15),
+                        child: const Icon(
+                          Icons.email,
+                          color: Color(0xFFBEADFA),
+                          size: 30,
+                        ),
+                      ),
+                    ],
                   ),
                 ),
               ),
+            ),
           ],
         ),
       ],

@@ -11,7 +11,6 @@ class ProfileInfo extends StatelessWidget {
       children: [
         email(),
         phoneNumber(),
-
       ],
     );
   }

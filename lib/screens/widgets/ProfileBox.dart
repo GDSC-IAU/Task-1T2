@@ -18,10 +18,7 @@ class profileBox extends StatelessWidget {
                       ),
                     ),
                 ),
-
                 
-             
-            
                 Center(
                    child: Container(
                     height: 180,

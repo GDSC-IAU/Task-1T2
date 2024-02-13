@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class phoneNumber extends StatelessWidget {
-  const phoneNumber({super.key});
+class website extends StatelessWidget {
+  const website({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -10,7 +10,7 @@ class phoneNumber extends StatelessWidget {
         Container(
           margin: const EdgeInsets.only(top: 20),
           child: const Text(
-            'Phone Number:',
+            'Website:',
             style: TextStyle(fontSize: 20, color: Color(0xFFBEADFA)),
           ),
         ),
@@ -39,18 +39,17 @@ class phoneNumber extends StatelessWidget {
                   child: Row(
                     children: [
                       const Text(
-                        '0550511234',
-                        textAlign: TextAlign.justify,
+                        'https://arwaalkhathlan.com',
                         style: TextStyle(
+                          fontSize: 20,
                           color: Color(0xFFBEADFA),
-                          fontSize: 22,
                         ),
                       ),
                       Container(
                         alignment: Alignment.centerRight,
-                        margin: const EdgeInsets.only(left: 152),
+                        margin: const EdgeInsets.only(left: 27),
                         child: const Icon(
-                          Icons.phone,
+                          Icons.link,
                           color: Color(0xFFBEADFA),
                           size: 30,
                         ),

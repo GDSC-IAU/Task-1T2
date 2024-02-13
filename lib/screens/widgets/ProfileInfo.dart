@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import '../widgets/email.dart';
 import '../widgets/phoneNumber.dart';
+import '../widgets/website.dart';
 
 class ProfileInfo extends StatelessWidget {
   const ProfileInfo({super.key});
@@ -11,6 +12,7 @@ class ProfileInfo extends StatelessWidget {
       children: [
         email(),
         phoneNumber(),
+        website(),
       ],
     );
   }

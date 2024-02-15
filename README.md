@@ -52,6 +52,6 @@ This Flutter app allows users to view and edit their profile information, includ
 - [flutter](https://flutter.dev/): The Flutter framework.
 
 ## Screenshots
-![Profile Page](https://raw.githubusercontent.com/arwaalkhathlan/Task-1T2/main/screenshots/Profile_page.png)
+![Profile Page](readme\Profile_page.png)
 
-![Profile Page Edit](https://raw.githubusercontent.com/arwaalkhathlan/Task-1T2/main/screenshots/Profile_edit.png)
+![Profile Page Edit](readme/Profile_edit.png)

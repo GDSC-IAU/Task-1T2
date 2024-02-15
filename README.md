@@ -52,16 +52,6 @@ This Flutter app allows users to view and edit their profile information, includ
 
 - [flutter](https://flutter.dev/): The Flutter framework.
 
-## Contributing
+## Screenshots
 
-Feel free to contribute to enhance the functionality or fix any issues. Follow these steps:
 
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Make your changes and commit them.
-4. Push your changes to your fork.
-5. Create a pull request.
-
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

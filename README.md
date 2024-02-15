@@ -1,43 +1,67 @@
-Profile Page App
+# Profile Page App
+
 This Flutter app allows users to view and edit their profile information, including email, phone number, and website.
 
-Features
-Display the user's profile information in a clean and stylish layout.
-Edit the user's email, phone number, and website through a convenient dialog.
-Getting Started
+## Features
 
+- Display the user's profile information in a clean and stylish layout.
+- Edit the user's email, phone number, and website through a convenient dialog.
 
-Clone the Repository
+## Getting Started
 
+1. **Clone the Repository**
 
-git clone https://github.com/your-username/your-repository.git
-Navigate to the Project Directory
+    ```bash
+    git clone https://github.com/your-username/your-repository.git
+    ```
 
+2. **Navigate to the Project Directory**
 
-cd your-repository
-Install Dependencies
+    ```bash
+    cd your-repository
+    ```
 
+3. **Install Dependencies**
 
-flutter pub get
-Run the App
+    ```bash
+    flutter pub get
+    ```
 
+4. **Run the App**
 
-flutter run
+    ```bash
+    flutter run
+    ```
 
-Usage
+## Usage
 
-Open the app on your device or emulator.
-View your profile information.
-Tap the "Edit Profile" floating action button to open a dialog for updating your email, phone number, and website.
-Enter the new information in the respective fields and tap "Save" to apply the changes.
+1. Open the app on your device or emulator.
+2. View your profile information.
+3. Tap the "Edit Profile" floating action button to open a dialog for updating your email, phone number, and website.
+4. Enter the new information in the respective fields and tap "Save" to apply the changes.
 
-Code Structure
-lib/main.dart: The entry point of the application.
-lib/widgets/ProfileBox.dart: Widget for displaying the user's profile box.
-lib/widgets/ProfileInfo.dart: Widget containing the user's email, phone number, and website.
-lib/widgets/Email.dart, lib/widgets/PhoneNumber.dart, lib/widgets/Website.dart: Widgets for displaying and editing email, phone number, and website, respectively.
-lib/widgets/EditProfileDialog.dart: Dialog for editing profile information.
+## Code Structure
 
-Dependencies
+- `lib/main.dart`: The entry point of the application.
+- `lib/widgets/ProfileBox.dart`: Widget for displaying the user's profile box.
+- `lib/widgets/ProfileInfo.dart`: Widget containing the user's email, phone number, and website.
+- `lib/widgets/Email.dart`, `lib/widgets/PhoneNumber.dart`, `lib/widgets/Website.dart`: Widgets for displaying and editing email, phone number, and website, respectively.
+- `lib/widgets/EditProfileDialog.dart`: Dialog for editing profile information.
 
-flutter: The Flutter framework.
+## Dependencies
+
+- [flutter](https://flutter.dev/): The Flutter framework.
+
+## Contributing
+
+Feel free to contribute to enhance the functionality or fix any issues. Follow these steps:
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your changes to your fork.
+5. Create a pull request.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

@@ -55,7 +55,7 @@ This Flutter app allows users to view and edit their profile information, includ
 ## Screenshots
 
 
-![Profile Page](readme\Profile_page.png)
+![Profile Page](C:\Users\arwa1\Desktop\vs_projects\app_dev\flutter\Task-1T2\readme\Profile_page.png)
 
-![Profile Page Edit](readme\Profile_edit.png)
+![Profile Page Edit](C:\Users\arwa1\Desktop\vs_projects\app_dev\flutter\Task-1T2\readme\Profile_edit.png)
 

@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 
 class email extends StatelessWidget {
-  const email({Key? key});
+  final TextEditingController controller;
+  const email({super.key, required this.controller});
 
   @override
   Widget build(BuildContext context) {
@@ -38,21 +39,20 @@ class email extends StatelessWidget {
                   padding: const EdgeInsets.all(15.0),
                   child: Row(
                     children: [
-                      const Text(
-                        'arwalkhathlan@iau.edu.sa',
+                      //email text
+
+                      const Icon(
+                        Icons.email,
+                        color: Color(0xFFBEADFA),
+                        size: 30,
+                      ),
+
+                      Text(
+                        controller.text,
                         textAlign: TextAlign.justify,
-                        style: TextStyle(
+                        style: const TextStyle(
                           color: Color(0xFFBEADFA),
                           fontSize: 22,
-                        ),
-                      ),
-                      Container(
-                        alignment: Alignment.centerRight,
-                        margin: const EdgeInsets.only(left: 15),
-                        child: const Icon(
-                          Icons.email,
-                          color: Color(0xFFBEADFA),
-                          size: 30,
                         ),
                       ),
                     ],

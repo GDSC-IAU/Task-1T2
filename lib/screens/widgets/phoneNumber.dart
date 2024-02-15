@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
-class phoneNumber extends StatelessWidget {
-  const phoneNumber({super.key});
+class PhoneNumber extends StatelessWidget {
+  const PhoneNumber({super.key, required this.controller});
+
+  final TextEditingController controller;
 
   @override
   Widget build(BuildContext context) {
@@ -38,21 +40,21 @@ class phoneNumber extends StatelessWidget {
                   padding: const EdgeInsets.all(15.0),
                   child: Row(
                     children: [
-                      const Text(
-                        '0550511234',
-                        textAlign: TextAlign.justify,
-                        style: TextStyle(
-                          color: Color(0xFFBEADFA),
-                          fontSize: 22,
-                        ),
+                      const Icon(
+                        Icons.phone,
+                        color: Color(0xFFBEADFA),
+                        size: 30,
                       ),
-                      Container(
-                        alignment: Alignment.centerRight,
-                        margin: const EdgeInsets.only(left: 152),
-                        child: const Icon(
-                          Icons.phone,
-                          color: Color(0xFFBEADFA),
-                          size: 30,
+
+                      //phone number text
+                      Center(
+                        child: Text(
+                          controller.text,
+                          textAlign: TextAlign.justify,
+                          style: const TextStyle(
+                            color: Color(0xFFBEADFA),
+                            fontSize: 22,
+                          ),
                         ),
                       ),
                     ],

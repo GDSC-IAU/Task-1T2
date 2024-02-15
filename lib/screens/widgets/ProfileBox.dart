@@ -1,22 +1,26 @@
 import 'package:flutter/material.dart';
 
-class profileBox extends StatelessWidget {
-  const profileBox({super.key});
+class ProfileBox extends StatelessWidget {
+  const ProfileBox({super.key});
 
   @override
   Widget build(BuildContext context) {
     return Stack(
       children: [
+
+        // The purple background
         Container(
           height: 100,
           decoration: const BoxDecoration(
-            color: const Color(0xFFD0BFFF),
+            color: Color(0xFFD0BFFF),
             shape: BoxShape.rectangle,
             borderRadius: BorderRadius.vertical(
               bottom: Radius.circular(50.0),
             ),
           ),
         ),
+
+        // The white box
         Center(
           child: Container(
             height: 180,
@@ -37,6 +41,8 @@ class profileBox extends StatelessWidget {
             ),
           ),
         ),
+
+        // The profile info
         Container(
           margin: const EdgeInsets.only(top: 150),
           alignment: Alignment.center,

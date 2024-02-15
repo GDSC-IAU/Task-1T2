@@ -1,7 +1,9 @@
 import 'package:flutter/material.dart';
 
-class website extends StatelessWidget {
-  const website({super.key});
+class Website extends StatelessWidget {
+  const Website({super.key, required this.controller});
+
+  final TextEditingController controller;
 
   @override
   Widget build(BuildContext context) {
@@ -38,20 +40,19 @@ class website extends StatelessWidget {
                   padding: const EdgeInsets.all(15.0),
                   child: Row(
                     children: [
-                      const Text(
-                        'https://arwaalkhathlan.com',
-                        style: TextStyle(
-                          fontSize: 20,
-                          color: Color(0xFFBEADFA),
-                        ),
+                      //website text
+                      const Icon(
+                        Icons.link,
+                        color: Color(0xFFBEADFA),
+                        size: 30,
                       ),
-                      Container(
-                        alignment: Alignment.centerRight,
-                        margin: const EdgeInsets.only(left: 27),
-                        child: const Icon(
-                          Icons.link,
+
+                      Text(
+                        controller.text,
+                        textAlign: TextAlign.justify,
+                        style: const TextStyle(
                           color: Color(0xFFBEADFA),
-                          size: 30,
+                          fontSize: 22,
                         ),
                       ),
                     ],

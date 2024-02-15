@@ -46,7 +46,6 @@ This Flutter app allows users to view and edit their profile information, includ
 - `lib/widgets/ProfileBox.dart`: Widget for displaying the user's profile box.
 - `lib/widgets/ProfileInfo.dart`: Widget containing the user's email, phone number, and website.
 - `lib/widgets/Email.dart`, `lib/widgets/PhoneNumber.dart`, `lib/widgets/Website.dart`: Widgets for displaying and editing email, phone number, and website, respectively.
-- `lib/widgets/EditProfileDialog.dart`: Dialog for editing profile information.
 
 ## Dependencies
 

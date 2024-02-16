@@ -20,7 +20,7 @@ class CardRow extends StatelessWidget {
       width: MediaQuery.of(context).size.width *0.8,
       height: 50,
       decoration: BoxDecoration(
-        borderRadius: BorderRadius.circular(20),
+        borderRadius: BorderRadius.circular(30),
         color: color,
       ),
       child:  Row(

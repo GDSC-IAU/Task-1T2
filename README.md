@@ -1,13 +1,4 @@
-# Level 3.1: Introduction to Flutter
-
-# Table of Content
-
-- [Overview](#overview)
-- [Learning Objectives](#learning-objectives)
-- [Setup And Tutorial](#setup-and-tutorial)
-- [Project Overview](#project-overview)
-- [Submission Guidelines](#submission-guidelines)
-- [Design Inspiration](#design-inspiration)
+# Week 1: Introduction to Flutter
 
 ## Overview
 
